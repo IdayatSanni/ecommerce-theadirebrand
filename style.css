@@ -235,6 +235,8 @@ h3 {
 footer {
   background-color: #c85108;
   color: #f3f0d1;
+  padding: 1.5rem;
+  text-align: center;
 }
 
 .footer-info {
@@ -244,11 +246,22 @@ footer {
 .footer-section h2 {
   margin: 0;
   padding: 0;
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+.footer-section p {
+  margin: 1em 0;
+  font-size: 1.2rem;
 }
 
 .socials {
   color: #f3f0d1;
+  padding-right: 1em;
+}
+
+.socials:hover {
+  color: #e29c68;
+  padding-right: 1em;
 }
 
 .mail-subscribe {
@@ -258,11 +271,27 @@ footer {
   flex-direction: column;
 }
 
-.footer-info ul {
+.footer-nav-part ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  font-size: 1.2rem;
 }
+
+.footer-nav-part a {
+  color: #f3f0d1;
+  text-decoration: none;
+  padding-bottom: 0.5em;
+}
+
+.footer-nav-part a:hover {
+  color: #e29c68;
+}
+
+.footer-mail-list,
+.footer-nav-part {
+  margin-top: 40px;
+  padding-left: 0;
+}
+
 .about-img-fix {
   background-image: url("../media/junior-reis-9ooYPL2Tffg-unsplash.jpg");
   background-size: cover;
@@ -332,13 +361,16 @@ footer {
   .footer-section {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
-  .footer-info {
-    width: 50%;
-    margin: 20px 0;
-    padding-left: 30px;
-    text-align: left;
+  .footer-about-socials {
+    width: 60%;
+  }
+
+  .footer-mail-list,
+  .footer-nav-part {
+    margin-top: 0;
+    width: 40%;
+    padding-left: 20px;
   }
 }
