@@ -298,8 +298,9 @@ footer {
 .about-img-fix {
   background-image: url("../media/junior-reis-9ooYPL2Tffg-unsplash.jpg");
   background-size: cover;
-  height: 400px;
+  height: 300px;
   width: 100%;
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
