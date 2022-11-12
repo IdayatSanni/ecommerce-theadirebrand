@@ -232,12 +232,6 @@ h3 {
   border-radius: 0.5em;
 }
 
-.know-about {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 footer {
   background-color: #c85108;
   color: #f3f0d1;
@@ -245,7 +239,12 @@ footer {
 
 .footer-info {
   text-align: center;
-  margin: 1em 0 0;
+}
+
+.footer-section h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
 }
 
 .socials {
@@ -259,6 +258,11 @@ footer {
   flex-direction: column;
 }
 
+.footer-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .about-img-fix {
   background-image: url("../media/junior-reis-9ooYPL2Tffg-unsplash.jpg");
   background-size: cover;
@@ -325,17 +329,16 @@ footer {
     margin-left: 1em;
   }
 
-  .footer-part {
+  .footer-section {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .footer-info {
     width: 50%;
+    margin: 20px 0;
+    padding-left: 30px;
     text-align: left;
-  }
-
-  .come-down {
-    margin: 3em auto;
   }
 }
