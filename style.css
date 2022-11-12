@@ -301,6 +301,28 @@ footer {
   background-repeat: no-repeat;
 }
 
+input {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  padding: 0.8em 1em;
+  border: 1px solid white;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+input::placeholder {
+  color: #f3f0d1;
+}
+
+input[type="submit"] {
+  background-color: #f3f0d1;
+  color: rgb(22, 20, 20);
+  cursor: pointer;
+}
+
 @media (min-width: 600px) {
   .hero-image {
     height: 100vh;
