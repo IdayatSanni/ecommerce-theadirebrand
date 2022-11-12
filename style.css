@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: "Quicksand", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3125rem;
   line-height: 1.5;
   padding: 0;
@@ -235,8 +235,7 @@ h3 {
 footer {
   background-color: #c85108;
   color: #f3f0d1;
-  padding: 1.5rem;
-  text-align: center;
+  padding: 1.9em 0;
 }
 
 .footer-info {
@@ -251,7 +250,7 @@ footer {
 
 .footer-section p {
   margin: 1em 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .socials {
@@ -264,21 +263,21 @@ footer {
   padding-right: 1em;
 }
 
-.mail-subscribe {
+.subscribe-to-mail {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .footer-nav-part ul {
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  padding: 0;
 }
 
 .footer-nav-part a {
   color: #f3f0d1;
   text-decoration: none;
+  font-weight: 400;
   padding-bottom: 0.5em;
 }
 
@@ -288,7 +287,7 @@ footer {
 
 .footer-mail-list,
 .footer-nav-part {
-  margin-top: 40px;
+  margin-top: 30px;
   padding-left: 0;
 }
 
