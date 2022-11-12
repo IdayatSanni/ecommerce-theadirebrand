@@ -20,6 +20,10 @@ li {
   font-weight: 500;
 }
 
+h1 {
+  margin: 0.5em 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -175,13 +179,13 @@ a {
 
 .section-col h2,
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0 0 0.5rem;
+  font-weight: 600;
 }
 
 .section-col p {
   font-size: 1rem;
-  font-weight: 200;
 }
 
 .container-shop {
@@ -321,6 +325,22 @@ input[type="submit"] {
   background-color: #f3f0d1;
   color: rgb(22, 20, 20);
   cursor: pointer;
+}
+
+.contact-section {
+  text-align: center;
+  margin: 5em auto;
+  border: 1px solid #c85108;
+  padding: 2em;
+}
+
+.socials-links {
+  color: black;
+  padding-right: 0.5em;
+  font-size: 1.3em;
+}
+.socials-links:hover {
+  color: #c85108;
 }
 
 @media (min-width: 600px) {
