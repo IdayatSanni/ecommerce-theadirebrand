@@ -1,6 +1,9 @@
 :root {
-  --branding-color: #ffb6b9;
-  --accent-color: #fae3d9;
+  --branding-color: #ffcaca;
+  --accent-color: #ffe6e6;
+  --focus-color: #f4bfbf;
+  --text-color: #000000;
+  --focusing-color: #ffecef;
 }
 
 * {
@@ -159,8 +162,8 @@ img {
 }
 
 button {
-  background: var(--branding-color);
-  color: var(--accent-color);
+  background: var(--focus-color);
+  color: var(--text-color);
   font-size: 0.8rem;
   padding: 0.5em 1em;
   border-radius: 1.5em;
@@ -168,7 +171,7 @@ button {
 }
 
 button:hover {
-  background-color: #e29c68;
+  background-color: var(--focusing-color);
   color: black;
 }
 
@@ -227,15 +230,15 @@ h3 {
   font-size: 1.3rem;
   text-align: center;
   padding: 0.5em 1em;
-  color: var(--accent-color);
-  background-color: var(--branding-color);
+  color: var(--text-color);
+  background-color: var(--focus-color);
   border-radius: 0.5em;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
 .shop-link:hover {
-  background-color: #e29c68;
-  color: black;
+  background-color: var(--focusing-color);
+  color: var(--text-color);
 }
 
 .shop-img {
@@ -244,7 +247,7 @@ h3 {
 
 footer {
   background-color: var(--branding-color);
-  color: var(--accent-color);
+  color: var(--text-color);
   padding: 1.9em 0;
 }
 
@@ -264,12 +267,12 @@ footer {
 }
 
 .socials {
-  color: var(--accent-color);
+  color: var(--text-color);
   padding-right: 1em;
 }
 
 .socials:hover {
-  color: #e29c68;
+  color: var(--accent-color);
   padding-right: 1em;
 }
 
@@ -285,14 +288,14 @@ footer {
 }
 
 .footer-nav-part a {
-  color: var(--accent-color);
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 400;
   padding-bottom: 0.5em;
 }
 
 .footer-nav-part a:hover {
-  color: #e29c68;
+  color: var(--accent-color);
 }
 
 .footer-mail-list,
@@ -314,9 +317,9 @@ footer {
 
 input {
   background-color: rgba(255, 255, 255, 0);
-  color: white;
+  color: var(--text-color);
   padding: 0.8em 1em;
-  border: 1px solid white;
+  border: 1px solid var(--text-color);
   margin-bottom: 1em;
 }
 
@@ -326,7 +329,7 @@ input:focus {
 }
 
 input::placeholder {
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 input[type="submit"] {
@@ -334,11 +337,12 @@ input[type="submit"] {
   color: rgb(22, 20, 20);
   cursor: pointer;
   width: 50%;
+  border-radius: 0;
   align-self: center;
 }
 
 input[type="submit"]:hover {
-  background-color: #e29c68;
+  background-color: var(--focusing-color);
   color: rgb(22, 20, 20);
 }
 
@@ -355,7 +359,7 @@ input[type="submit"]:hover {
   font-size: 1.3em;
 }
 .socials-links:hover {
-  color: var(--branding-color);
+  background-color: var(--focusing-color);
 }
 
 @media (min-width: 600px) {
