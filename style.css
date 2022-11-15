@@ -44,7 +44,7 @@ img {
 }
 
 .announcementinfo {
-  background: var(--branding-color);
+  background: var(--text-color);
   text-align: center;
   color: white;
   display: flex;
