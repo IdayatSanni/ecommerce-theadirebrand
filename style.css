@@ -44,9 +44,9 @@ img {
 }
 
 .announcementinfo {
-  background: var(--text-color);
+  background: var(--branding-color);
   text-align: center;
-  color: white;
+  color: var(--text-color);
   display: flex;
   justify-content: center;
 }
